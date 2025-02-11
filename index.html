@@ -8,7 +8,7 @@
 
 	<style>
 	body {
-	background: linear-gradient(#33a, #3aa);
+	background: linear-gradient(#33a, #399);
 	background-attachment: fixed;
 	color: #ddd;
 	font-family: "Noto Sans";
@@ -16,8 +16,11 @@
 	padding: 1cm;
 	font-size: 1.2em;
 	height: 100%;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
 	}
-	h1 {
+	h1, h2 {
 	font-style: italic;
 	font-weight: 400;
 	}
@@ -29,7 +32,11 @@ text-decoration: none;
 a:hover {
 text-decoration: underline;
 }
-
+#chapters {
+width: 60%;
+margin: 0 auto;
+text-align: left;
+}
 	</style>
 </head>
 <body>
@@ -37,9 +44,9 @@ text-decoration: underline;
     <h1>ARITHMETIC <small>of the</small> CONTINUUM</h1>
     <p>Latest draft: <a href="aotc-2e.pdf">Download PDF (~400KB)</a></p>
 </center>
-<p>
-Contents:
-<ol start=0>
+<hr color=#fff style="opacity: 0.6">
+<div id="chapters">
+<ol start=0 style="line-height: 2em">
 <li>Zeroth Order Logic</li>
 <li>First Order Logic</li>
 <li>The ZFC Axioms</li>
@@ -49,10 +56,11 @@ Contents:
 <li>Finite Dimensional Vector Spaces</li>
 <li>Norms and Inner Products</li>
 <li>Differentiation in Banach Space</li>
+<li>Measure in Euclidean Space</li>
 <li>Integration in Hilbert Space</li>
 <li>Eigenvalues and Eigenvectors</li>
 <li>Tempered Distributions</li>
 </ol>
-</p>
+</div>
 </body>
 </html>
