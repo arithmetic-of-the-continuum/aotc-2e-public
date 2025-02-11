@@ -8,17 +8,36 @@
 
 	<style>
 	body {
-	background: linear-gradient(#66c, #6cc);
-	color: #333;
+	background: linear-gradient(#33a, #3aa);
+	background-attachment: fixed;
+	color: #ccc;
 	font-family: "Noto Sans";
 	font-weight: 300;
 	padding: 1cm;
 	font-size: 1.2em;
 	text-align: center;
+	height: 100%;
 	}
 	h1 {
 	font-weight: 500;
 	}
+	a {
+	color: #ccc;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+	}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
 	</style>
 </head>
 <body>
